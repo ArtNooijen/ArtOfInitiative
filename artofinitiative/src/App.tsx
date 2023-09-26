@@ -7,6 +7,7 @@ import Banner from './components/Banner';
 import Navigation from './components/Navigation';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+
 const App: React.FC = () => {
   return (
     <main className="bg-gray-100 min-h-screen">
@@ -20,7 +21,9 @@ const App: React.FC = () => {
           <Route path="/dmscreen" element={<DMScreen />} /> {/* Make sure to import DMScreen component at the top */}
           <Route path="/beastiary" element={<Beastiary />} /> {/* Make sure to import Beastiary component at the top */}
         </Routes>
+
       </Router>
+
     </main>
     
   );

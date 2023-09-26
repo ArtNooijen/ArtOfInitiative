@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "flowbite": "^1.8.1",
+    "flowbite-react": "^0.6.1",
+    "framer-motion": "^10.16.4"
+  }
+}
