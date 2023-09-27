@@ -46,7 +46,7 @@ const people = [
                     key={person.email} 
                     className="mx-2 my-2 border-none flex justify-between gap-x-6 py-5 bg-sky-100 rounded hover:bg-indigo-900 transition-colors duration-300 group  "
                 >
-                    <div className="flex min-w-0 gap-x-4 mx-3 group-hover:text-white">
+                    <div className="flex min-w-0 gap-x-4 mx-3 group-hover:text-white ">
                         <img
                             className="h-12 w-12 flex-none rounded-full bg-gray-50"
                             src={person.imageUrl}
