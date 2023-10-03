@@ -9,12 +9,15 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 const App: React.FC = () => {
+
   return (
-    <main className="bg-gray-100 min-h-screen">
-      
+    <main className="bg-slate-950 min-h-screen">
+
       <Router>
         <Navigation />
         <Banner />
+
+
 
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -25,7 +28,7 @@ const App: React.FC = () => {
       </Router>
 
     </main>
-    
+
   );
 }
 

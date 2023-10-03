@@ -1,10 +1,12 @@
 import React from 'react';
+import Hero from '../components/Hero';
 const Beastiary: React.FC = () => {
   return (
-    <div>
+    <div className=' bg-slate-950 h-screen snap-y snap-mandatory overflow-scroll z-0'>
         
-        <h1>Welcome to Home Page</h1>
-
+        <section className='snap-center'>
+          <Hero />
+        </section>
     </div>
   );
 }
